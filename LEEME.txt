@@ -1,0 +1,27 @@
+TORTILLERÍA OBREGÓN — APLICACIÓN INICIAL
+
+ARCHIVOS:
+- index.html: aplicación
+- manifest.json: datos para instalarla como aplicación web
+- sw.js: caché básica para uso sin conexión después de abrirla una vez
+
+CÓMO PROBAR:
+1. Extrae el ZIP.
+2. Para publicarla, sube los tres archivos a un repositorio de GitHub.
+3. En GitHub, abre Settings > Pages y configura Deploy from a branch, rama main, carpeta /(root).
+4. Espera a que GitHub Pages publique el sitio y abre la dirección que te proporcione.
+5. En Chrome Android, menú ⋮ > Añadir a pantalla principal / Instalar aplicación.
+
+FUNCIONES INCLUIDAS:
+- Ventas de contado y crédito
+- Clientes y registro de abonos
+- Catálogo de productos y cambios de precio
+- Carga, sobrantes y cantidad entregada/vendida calculada
+- Resumen diario, historial, respaldo y restauración JSON
+
+IMPORTANTE:
+- Es una versión inicial para pruebas, no una app nativa APK.
+- Los datos se guardan en el almacenamiento local del navegador del teléfono.
+- No hay sincronización entre teléfonos, usuarios/contraseñas, control de permisos, inventario automático ni respaldo en la nube.
+- No borres los datos del navegador sin descargar primero un respaldo.
+- Antes de usarla como sistema oficial, hay que probarla con datos ficticios y añadir autenticación/sincronización y permisos adecuados.
